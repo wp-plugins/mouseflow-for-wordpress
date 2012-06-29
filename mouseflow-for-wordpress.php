@@ -4,7 +4,7 @@ Plugin Name: Mouseflow
 Plugin URI: http://mouseflow.com
 Description: Integrate Mouseflow analytics on your blog. Create a free account <a href="http://mouseflow.com">here</a>, and paste in your recording code <a href="options-general.php?page=mouseflow-for-wordpress">here</a>.
 Author: Mouseflow
-Version: 1.0
+Version: 1.1
 Author URI: http://mouseflow.com
 */
 
