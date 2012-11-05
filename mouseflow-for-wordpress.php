@@ -2,9 +2,9 @@
 /*
 Plugin Name: Mouseflow
 Plugin URI: http://mouseflow.com
-Description: Integrate Mouseflow analytics on your blog. Create a free account <a href="http://mouseflow.com">here</a>, and paste in your recording code <a href="options-general.php?page=mouseflow-for-wordpress">here</a>.
+Description: Integrate Mouseflow analytics on your website. Create a free account <a href="http://mouseflow.com">here</a>, and paste in your tracking code <a href="options-general.php?page=mouseflow-for-wordpress">here</a>.
 Author: Mouseflow
-Version: 1.1
+Version: 2.0
 Author URI: http://mouseflow.com
 */
 
@@ -31,7 +31,7 @@ function mouseflow_menu() {
 function mouseflow_options() {
 echo '
 <div class="wrap">
-<h2>Mouseflow recording script</h2>
+<h2>Mouseflow tracking code</h2>
 
 <form method="post" action="options.php">';
 wp_nonce_field('update-options'); 
@@ -41,7 +41,7 @@ echo '
 <table class="form-table">
 
 <tr valign="top">
-<th scope="row"><h3>Your current Mouseflow code</h3></th></tr>
+<th scope="row"><h3>Your current Mouseflow tracking code</h3></th></tr>
 <tr>
 <td>';
 
@@ -54,7 +54,7 @@ else{
 echo '
 </td></tr>
 <tr>
-<td><h3>Insert new code</h3></td></tr>
+<td><h3>Insert new tracking code</h3></td></tr>
 <td><textarea name="mouseflow_script" style="width:300px;height:100px;"></textarea></td>
 </tr>
  
@@ -87,6 +87,6 @@ function add_mouseflow_script()
 {
 	echo get_option('mouseflow_script');
 }
-add_action('wp_head', 'add_mouseflow_script');
+add_action('wp_footer', 'add_mouseflow_script');
 
 ?>
