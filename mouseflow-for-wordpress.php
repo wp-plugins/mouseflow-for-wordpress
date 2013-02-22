@@ -46,7 +46,7 @@ echo '
 <td>';
 
 if(get_option('mouseflow_script') == ''){
-	echo "Your Mouseflow tracking code is not yet installed. You can <a href='http://account.mouseflow.com/sign-in' target='_blank'>find the tracking code on your Mouseflow-account</a>.<br><br>If you don't yet have an account, you can easily <a href='https://mouseflow.com/sign-up/' target='_blank'>create a Mouseflow-account for free</a>.";n
+	echo "Your Mouseflow tracking code is not yet installed. You can <a href='http://account.mouseflow.com/sign-in' target='_blank'>find the tracking code on your Mouseflow-account</a>.<br><br>If you don't yet have an account, you can easily <a href='https://mouseflow.com/sign-up/' target='_blank'>create a Mouseflow-account for free</a>.";
 }
 else{
 	echo str_replace(">", "&gt;",str_replace("<", "&lt;", get_option('mouseflow_script')));
