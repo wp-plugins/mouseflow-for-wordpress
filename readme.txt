@@ -1,4 +1,4 @@
-=== Mouseflow for Wordpress ===
+=== Mouseflow for Wordpress 2.1 ===
 Contributors: Mouseflow
 Tags: mouseflow 
 Requires at least: 2.0.0
@@ -9,7 +9,7 @@ A plugin for easy installation of the Mouseflow recording script
 
 == Description ==
 
-A plugin for easy installation of the Mouseflow recording script
+A plugin for easy installation of the Mouseflow recording script on your Wordpress-site.
 
 == Installation ==
 
@@ -21,8 +21,13 @@ Follow these steps to use the plugin:
 
 == Frequently Asked Questions ==
 
+= Where do I get the tracking code? =
+
+You get the tracking code by signing up on Mouseflow.com. You can easily create an account for free by following this link: https://mouseflow.com/sign-up/
+
 = The code is not working =
 
 1. Make sure you've inserted the script code in the settings page.
 2. Check that you have the wp_footer() function in the blog template.
 3. Check your blog's html source (Page / View source) and search for "mouseflow". In case the script found at the end of the <body> section, but still not working, you're probably running the site from a different domain than the one you entered on your mouseflow account. Make sure that the domains are matching.
+4. Get in touch: http://mouseflow.com/support/
