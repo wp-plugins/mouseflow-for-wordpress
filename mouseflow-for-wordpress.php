@@ -130,7 +130,7 @@ echo '
 <table class="intro">
 	<tr><td class="top2" colspan="2"><h2>Welcome to the Mouseflow dashboard</h2></td></tr>
 </table>';
-echo '<iframe src="http://account.mouseflow.com/sign-in" width="1100px" height="1800px"><br></iframe>
+echo '<iframe src="//account.mouseflow.com/sign-in" width="1100px" height="1800px"><br></iframe>
 ';
 }
 
