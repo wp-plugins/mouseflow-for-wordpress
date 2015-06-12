@@ -3,7 +3,7 @@ Contributors: Mouseflow
 Tags: mouseflow 
 Requires at least: 2.0.0
 Tested up to: 4.2.2
-Stable tag: trunk
+Stable tag: 4.2
 
 Use Mouseflow directly from your Wordpress dashboard. Easy installation and use.
 
