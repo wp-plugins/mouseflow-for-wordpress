@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Mouseflow 3.1
+Plugin Name: Mouseflow 4.2
 Plugin URI: http://mouseflow.com
 Description: Integrate Mouseflow analytics on your website. Login to your <a href="admin.php?page=mouseflow-dashboard">Mouseflow dashboard</a>. Create a free account <a href="http://mouseflow.com/sign-up/" target="_blank">here</a>, and paste in your tracking code <a href="admin.php?page=mouseflow-for-wordpress">here</a>.
 Author: Mouseflow
-Version: 3.1
+Version: 4.2
 Author URI: http://mouseflow.com
 */
 
